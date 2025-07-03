@@ -30,4 +30,91 @@
       background: white;
       margin: 1rem;
       border-radius: 10px;
-      box-shadow: 0 2px 4px
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li::before {
+      content: "🧹 ";
+    }
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #003366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+      margin: 2rem 0;
+    }
+    .free-clean-logo {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://raw.githubusercontent.com/Green-Nile/green-nile.github.io/refs/heads/main/file_00000000ea8c61f4b43201fe438e116b.png" alt="Total Clean PA Logo">
+    <h1>Total Clean PA</h1>
+    <p>Commercial Cleaning. Real Results.</p>
+  </header>
+
+  <section class="section services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Office Cleaning</li>
+      <li>Salon / Barbershop Cleaning</li>
+      <li>Retail Store Cleaning</li>
+      <li>Warehouse & Breakroom Cleaning</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Pricing (Includes Hourly Labor)</h2>
+    <div class="pricing-grid">
+      <div>0–2,000 sq ft<br><strong>$0.35 / sq ft</strong></div>
+      <div>2,001–5,000 sq ft<br><strong>$0.32 / sq ft</strong></div>
+      <div>5,001–10,000 sq ft<br><strong>$0.30 / sq ft</strong></div>
+      <div>10,001+ sq ft<br><strong>Custom Quote</strong></div>
+    </div>
+    <p><strong>Minimum service charge: $300</strong></p>
+    <p>Recurring plans available with discounted rates (90-day minimum term).</p>
+  </section>
+
+  <section class="section">
+    <h2>Try Us Free</h2>
+    <img class="free-clean-logo" src="https://raw.githubusercontent.com/Green-Nile/green-nile.github.io/main/file_00000000e88c61f988dd255c9230e848.png" alt="Free Clean Offer">
+    <p>We offer a complimentary light cleaning of one section of your business — no strings attached. See the quality before you commit.</p>
+    <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSeNfGxALls4xaKAv-GgB3dfLidDXQEvIU8EycdW6-9B6d6b6w/viewform" target="_blank">Schedule Free Trial Cleaning</a>
+  </section>
+
+  <section class="section">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> socxnteesllc@gmail.com</p>
+    <p><strong>Phone:</strong> (570) 277-5107</p>
+    <p><strong>Website:</strong> totalcleanpa.com</p>
+    <a class="button" href="https://totalcleanpa.com/terms" target="_blank">View Terms & Conditions</a>
+  </section>
+
+  <footer>
+    Veteran-Owned • TikTok: @total.clean.pa
+  </footer>
+
+</body>
+</html>
